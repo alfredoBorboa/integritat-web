@@ -47,7 +47,7 @@ body{
 }
 
 #menu ul a li:hover{
-    background-color: #009999;
+    background-color: #52C3C1;
     color: #FFF;
 }
 
@@ -94,13 +94,64 @@ body{
 }
 
 .seccionHome{
-    width: 250px;
+    width: 200px;
     height: 300px;
     background-color: #666;
     float: left;
-    margin-right: 50px;
+    margin-right: 90px;
 }
 
-.seccionHome:first-child{
-    margin-left: 55px;
+.seccionHome:hover{
+    opacity: 0.8;
+}
+
+.tituloSeccionHome{
+    font-size: 21px;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.seccionHome img{
+    margin-left: 65px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+#seccionProxEventos{
+    width: 880px;
+    height: 300px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin-top:50px;
+    margin-bottom:50px;
+    letter-spacing: 0.05em;
+}
+
+#textoPEventos{
+    width: 800px;
+    color: #000;
+    letter-spacing: 0.045em;
+    margin-top:40px;
+    height: 250px;
+     -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+}
+
+.elementoPEvento{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.elementoPEvento:first-child{
+    margin-top: 0px;
+}
+
+
+.elementoPEvento a{
+    color:#000;
 }
